@@ -1,0 +1,56 @@
+#plant_care {
+  padding-top: 200px;
+}
+
+.plant_carerow {
+  display: flex;
+  gap: 90px;
+}
+
+.plant_carerow .plant_caretext1 p {
+  width: 453px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Abel", sans-serif;
+  color: #000000;
+}
+
+.plant_carerow .plant_caretext2 h3 {
+  width: 627px;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Lora", serif;
+  color: #000000;
+}
+
+.plant_carerow .plant_caretext2 a {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Adamina", serif;
+  color: #000000;
+  margin-top: 63px;
+}
+
+.evreything_together {
+  width: 100%;
+  height: 436px;
+  background: #ededed;
+  position: relative;
+  margin-top: 446px;
+}
+
+.evreything_together .together_img {
+  position: absolute;
+  top: -69%;
+}
+
+.evreything_together h3 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Lora", serif;
+  color: #000;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
