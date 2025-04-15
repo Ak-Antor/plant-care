@@ -1,56 +1,113 @@
-#plant_care {
-  padding-top: 200px;
+
+#bestseller {
+  padding-top: 114px;
 }
 
-.plant_carerow {
-  display: flex;
-  gap: 90px;
-}
-
-.plant_carerow .plant_caretext1 p {
-  width: 453px;
-  font-size: 24px;
+.bestSellerHead h4 {
+  font-size: 20px;
   font-weight: 400;
-  font-family: "Abel", sans-serif;
-  color: #000000;
+  font-family: "Adamina", serif;
+  color: #000;
 }
 
-.plant_carerow .plant_caretext2 h3 {
-  width: 627px;
-  font-size: 36px;
+.bestSellerHead h2 {
+  width: 526px;
+  font-size: 48px;
   font-weight: 500;
   font-family: "Lora", serif;
-  color: #000000;
+  color: #000;
+  margin-top: 34px;
+  margin-bottom: 37px;
 }
 
-.plant_carerow .plant_caretext2 a {
+.bestSellerHead a {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Adamina", serif;
+  background: #010101;
+  color: #FFFFFF;
+  border-radius: 29px;
+  padding: 11px 44px;
+
+}
+
+.bestsellerproducts_row {
+  margin-top: 50px;
+  display: flex;
+  gap: 44px;
+}
+
+.singleproduct {
+  width: 368px;
+}
+
+.singleproductImage img {
+  width: 388px;
+  transition: all linear .1s;
+}
+
+.singleproductText {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.singleproductText p {
   font-size: 20px;
   font-weight: 400;
   font-family: "Adamina", serif;
   color: #000000;
-  margin-top: 63px;
 }
 
-.evreything_together {
-  width: 100%;
-  height: 436px;
-  background: #ededed;
+
+.singleproductImage {
   position: relative;
-  margin-top: 446px;
+  overflow: hidden;
+
 }
 
-.evreything_together .together_img {
+.singleproductImage .image_overly {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: -69%;
+  top: 0;
+  right: -100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  transition: all linear .5s;
+  z-index: 99999;
 }
 
-.evreything_together h3 {
-  font-size: 36px;
-  font-weight: 500;
-  font-family: "Lora", serif;
-  color: #000;
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+.singleproductImage {
+  transition: all linear .3s;
+}
+
+.singleproductImage:hover img {
+  transform: scale(1.2);
+
+}
+
+.singleproductImage:hover .image_overly {
+  right: 0%;
+
+}
+
+.singleproductImage .image_overly button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Adamina", serif;
+  color: #010000;
+}
+
+
+.singleproductImage .image_overly a {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Adamina", serif;
+  color: #0ebba1;
 }
